@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Modern ToDo App</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: linear-gradient(135deg, #2c3e50, #4ca1af);
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: flex-start;
+      padding: 40px 20px;
+    }
+
+    .todo {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #fff;
+    }
+
+    .todo h1 {
+      font-size: 3rem;
+      margin-bottom: 15px;
+      text-shadow: 2px 2px #00000040;
+    }
+
+    .todo input {
+      padding: 12px;
+      width: 300px;
+      border: none;
+      border-radius: 10px;
+      font-size: 1rem;
+      outline: none;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .btn {
+      padding: 12px 20px;
+      margin-left: 10px;
+      background: #1a152b;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .btn:hover {
+      background-color: #29223f;
+      transform: scale(1.05);
+    }
+
+    .myTask {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background: rgba(255, 255, 255, 0.15);
+      padding: 15px 20px;
+      border-radius: 15px;
+      backdrop-filter: blur(10px);
+      color: #fff;
+      box-shadow: 0 4px 30px rgba(0,0,0,0.1);
+      transition: 0.3s ease;
+      margin-bottom: 12px;
+    }
+
+    .myTask:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 8px 40px rgba(0,0,0,0.2);
+    }
+
+    .myTask li {
+      list-style: none;
+      font-size: 1.1rem;
+    }
+
+    .deletebtn {
+      background-color: #ff4e4e;
+      padding: 8px 15px;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      transition: 0.3s ease;
+    }
+
+    .deletebtn:hover {
+      background-color: #e63946;
+      transform: scale(1.05);
+    }
+
+    .mainsection {
+      width: 50%;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="todo">  
+    <h1>Todo List</h1>
+    <input type="text" id="inputValue" placeholder="Enter your task..." /> 
+    <button class="btn">Add Todo</button>
+  </div>
+
+  <section class="mainsection"></section>  
+
+ <script src="script.js"></script>
+
+</body>
+</html>
