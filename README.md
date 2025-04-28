@@ -3,7 +3,7 @@
 This project is a simple yet powerful Modern To-Do List App built using HTML, CSS, and JavaScript.
 I created this project while learning JavaScript fundamentals to practice DOM manipulation, event handling, localStorage, and dynamic element creation in a real-world mini project.
 
-
+---
 🚀 Features
 
 ✅ Add new tasks dynamically with one click.
@@ -19,7 +19,7 @@ I created this project while learning JavaScript fundamentals to practice DOM ma
 
 ✅ Smooth hover animations for buttons and task items.
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+---
 
 🎯 Purpose Behind This Project
 
@@ -39,9 +39,7 @@ This project reflects my early hands-on practice where I explored:
 
 Even though it's a small project, it has been a huge milestone in improving my real coding skills! 🚀✨
 
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
+---
 
 <p align="center">🛠️ Technologies Used</p>
 
@@ -51,9 +49,7 @@ Even though it's a small project, it has been a huge milestone in improving my r
 
 ⚡ JavaScript (DOM Manipulation, Events, localStorage)
 
-
->>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
-
+---
 <p align="center">📚 Learning Outcome</p>
 
 Through this project, I learned:
@@ -70,10 +66,14 @@ Through this project, I learned:
 
 🧠 How important clean, organized code is even in small projects.
 
+
+---
+
 🧿 Live Preview
 
-(You can add your GitHub Pages link here if you deploy it!)
+https://09iqranoor.github.io/ToDoList/
 
+---
 
 ✨ AUTHOR
 
